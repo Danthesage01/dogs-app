@@ -46,7 +46,7 @@ const DogLists = () => {
   }
   return (
     <section className='section products'>
-        <h2 className='section-title'>cocktails</h2>
+        <h2 className='section-title'>breeds of dogs</h2>
         <div className="products-container">
           {allDogs.map(dog => {
             const { id } = dog
