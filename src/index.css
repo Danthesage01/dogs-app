@@ -636,7 +636,7 @@ Single Product Page
 }
 .prev-btn,
 .next-btn {
-  background: var(--clr-grey-1);
+  background: var(--clr-black);
   color: var(--clr-primary);
   font-weight: bold;
   height: 2rem;
