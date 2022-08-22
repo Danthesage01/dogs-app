@@ -2,8 +2,8 @@ import React, { useContext, useState, useEffect } from "react";
 import paginate from "./pagination";
 
 
-// const URLBARE = `https://api.thedogapi.com/v1/breeds/`
-const URL = `https://api.thedogapi.com/v1/breeds?api_key=${process.env.REACT_APP_KEY}`
+const URLBARE = `https://api.thedogapi.com/v1/breeds/`
+// const URL = `https://api.thedogapi.com/v1/breeds?api_key=${process.env.REACT_APP_KEY}`
 
 const AppContext = React.createContext()
 
@@ -15,7 +15,7 @@ const AppProvider = ({ children }) => {
   const fetchDog = async () => {
     setIsLoading(true)
     try {
-      const response = await fetch(URL)
+      const response = await fetch(URLBARE)
       const data = await response.json()
 
       if (data) {
