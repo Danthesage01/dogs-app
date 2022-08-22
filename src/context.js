@@ -3,7 +3,7 @@ import paginate from "./pagination";
 
 
 const URLBARE = `https://api.thedogapi.com/v1/breeds/`
-// const URL = `https://api.thedogapi.com/v1/breeds?api_key=${process.env.REACT_APP_KEY}`
+
 
 const AppContext = React.createContext()
 
