@@ -2,7 +2,8 @@ import React, { useContext, useState, useEffect } from "react";
 import paginate from "./pagination";
 
 
-const URL = `https://api.thedogapi.com/v1/breeds?api_key=55c5f676-1493-44f7-ad67-0b870beba21e/`
+// const URLBARE = `https://api.thedogapi.com/v1/breeds/`
+const URL = `https://api.thedogapi.com/v1/breeds?api_key=live_v2KEMvu1br7NSCNSVo6gxNToDniBMahHC7ZsEJevhxj1qRbuJKm6rBqBCIoxfe9J/`
 
 const AppContext = React.createContext()
 
