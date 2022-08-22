@@ -34,8 +34,7 @@ const Navbar = () => {
         </ul>
         <div>
           <button className='toggle-btn' onClick={toggleTheme}>
-            {darkMode === "light-mode" ? <FaToggleOn /> : <FaToggleOff /> }
-           
+            {darkMode === "light-mode" ? <FaToggleOn /> : <FaToggleOff /> } 
           </button>
         </div>
       </div>
