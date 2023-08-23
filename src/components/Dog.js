@@ -5,7 +5,7 @@ const Dog = ({ id, name, image }) => {
   return (
     <article className="product">
       <div className="product-container">
-        <img src={image.url} alt={name} className="product-img img" />
+        <img src={image?.url} alt={name} className="product-img img" />
         <div className="product-icons">
           <Link to={`/dog/${id}`} className="product-icon">
             <FaSearch />
