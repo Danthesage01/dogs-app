@@ -49,7 +49,6 @@ const DogLists = () => {
         <h2 className='section-title'>breeds of dogs</h2>
         <div className="products-container">
           {allDogs.map(dog => {
-            console.log(dog)
             const { id } = dog
             return <Dog key={id} {...dog} />
           })}
